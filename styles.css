@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color:whitesmoke;
+}
+
+.textoFundo{
+    padding: 15px;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif, bold;
+
+}
+
+.titulo {
+    font-size: 70px;
+    text-align: center;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg,black, rgb(121, 134, 209));
+    height: 100vh;
+    width: 100%;
+    text-align:center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(44, 43, 43, 0.8);
+    top: 50px;
+    left: 400px;
+    /*translate: -50%, 50%;*/ 
+    border-radius:15px;
+    padding: 7px;
+    align-items: center;
+}
+
+.botoes {
+    background-color: rgb(59, 59, 59);
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    /*para mudar o cursor de ponteira para mãozinha*/
+    cursor:pointer;
+    border: none;
+    color: #ffffff;
+    /* para alinhar os botões, utilize o margin*/
+    margin: 3px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.botoes:hover {
+    background-color: rgb(110, 109, 109);
+    transition: 0.2s;
+}
+
+#resultado {
+    background-color:whitesmoke ;
+    width: 210px;
+    height: 30px;
+    margin:5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding:5px;
+    word-wrap:break-word;
+}
+
